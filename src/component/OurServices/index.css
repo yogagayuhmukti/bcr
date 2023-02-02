@@ -1,0 +1,72 @@
+.gambarOS{
+    padding-left: 206px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 10s%;
+    height: auto;
+  }
+  .ourbox{
+    padding-left: 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  .ourbox h1{
+    width: 468px;
+    height: 72px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+  }
+  
+  .ourbox p{
+    width: 468px;
+    height: 80px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .gambar-service{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  .listServices{
+    list-style: none;
+    padding: 0;
+    font-weight: 700;
+    line-height: 35px;
+  }
+  .listServices li {
+    padding-left: ;
+  }
+  .listServices li img {
+    padding-right: 16px;
+  }
+  @media only screen and (max-width: 1024px) {
+    .gambarOS{
+      padding-left: 106px;
+      display: flex;
+      flex-direction: column;
+    }
+  }

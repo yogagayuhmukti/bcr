@@ -1,0 +1,32 @@
+.navnav {
+  padding-left: 136px;
+  padding-right: 249px;
+}
+.bnav{
+    text-decoration: none;
+    padding: 0;
+  }
+  .buttonNavi{
+    margin: 0;
+    color: black;
+  }
+  .navbar-brand{
+    width: 100px;
+    height: 34px;
+    background-color: #0D28A6;
+  }
+  .brand-toggle{
+    width: 100px;
+    height: 34px;
+    text-decoration: none;
+    color:black;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+  @media only screen and (max-width: 1024px) {
+    .navnav {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+  }
+  

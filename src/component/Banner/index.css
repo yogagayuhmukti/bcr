@@ -1,0 +1,38 @@
+.box {
+    /* margin: auto;
+    align-content: space-between; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.padlef {
+    padding-left: 136px;
+    padding-top: 4%;
+    width: 50%;
+}
+.padrig {
+    width: 50%;
+}
+.image {
+    width: auto;
+    /* height: 100%; */
+}
+@media only screen and (max-width: 1024px) {
+    .padlef {
+        padding-top: 0%;
+        padding-left: 16px;
+        width: 90%;
+        font-size: large;
+    }
+    .padrig {
+        padding-left: 16px;
+        width: auto;
+    }
+    .image {
+        width: 100%;
+    }
+  }
+  
