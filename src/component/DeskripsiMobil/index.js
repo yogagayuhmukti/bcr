@@ -1,4 +1,4 @@
-import {Container, Row, Col, Card, Button, ListGroup} from "react-bootstrap"
+import {Container, Row, Col, Card, ListGroup} from "react-bootstrap"
 
 function Banner() {
     return (

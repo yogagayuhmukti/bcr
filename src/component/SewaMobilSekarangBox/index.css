@@ -1,0 +1,20 @@
+.sewabox{
+    position: relative;
+    left: 136px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    border-radius: 13px;
+    width: 1168px;
+    height: 326px;
+    color: #FFFFFF;
+}
+.h1{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+}
+.button{
+    padding-bottom: 64px;
+}
