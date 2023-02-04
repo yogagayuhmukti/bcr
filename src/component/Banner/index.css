@@ -1,38 +1,125 @@
 .box {
-    /* margin: auto;
-    align-content: space-between; */
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: auto;
+    height: 500px;
+    padding-top: 85px;
 }
 .padlef {
+    display: flex;
+    flex-direction: column;
     padding-left: 136px;
-    padding-top: 4%;
-    width: 50%;
+    justify-content: center;
+}
+.padlef h1{
+    width: 568px;
+    height: 108px;
+    left: 136px;
+    top: 177px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+}
+.padlef p{
+    width: 468px;
+    height: 60px;
+    left: 136px;
+    top: 301px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
 }
 .padrig {
     width: 50%;
 }
-.image {
-    width: auto;
-    /* height: 100%; */
+.button{
+    width: 140px;
+    height: 36px;
+    left: 136px;
+    top: 377px;
+}
+.button p{
+    width: 116px;
+    height: 20px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.mobilemode {
+    display: none;
 }
 @media only screen and (max-width: 1024px) {
+    .box {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        left: 0px;
+        top: 0px;
+        background: #F1F3FF;
+    }
     .padlef {
-        padding-top: 0%;
         padding-left: 16px;
-        width: 90%;
-        font-size: large;
+        width: 328px;
+        height: 292px;
+    }
+    .padlef h1{
+        width: 328px;
+        height: 216px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 150%;
+        color: #000000;
+    }
+    .padlef p{
+        width: 328px;
+        height: 60px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
     }
     .padrig {
+        margin-top: 25px;
+        padding-top: 8px;
         padding-left: 16px;
-        width: auto;
+        width: 344.22px;
+        height: 199px;
+        left: 360.22px;
+        top: 458px;
     }
     .image {
         width: 100%;
+    }
+    .button p{
+        width: 116px;
+        height: 20px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    .webmode {
+        display: none;
+    }
+    .mobilemode{
+        display: flex;
     }
   }
   

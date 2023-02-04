@@ -5,9 +5,8 @@ import "./index.css";
 
 const OurServices = () => {
   return (
-    <div>
-      <div class="d-md-flex">
-      <section id="gambarOS" className="gambarOS">
+    <div id='ours'>
+      <div className="boxOS">
           <div className='gambar-service'>
             <img
               src={ServiceImage}
@@ -15,7 +14,6 @@ const OurServices = () => {
             />
           </div>
           <div className='ourbox'>
-          <div>
             <h1>Best Car Rental for any kind of trip in (Lokasimu)!</h1>
             <p>
               Sewa mobil di Jawa Timur bersama Binar Car Rental jaminan harga
@@ -30,9 +28,7 @@ const OurServices = () => {
               <li><img src={Icon} alt="img-services"/>Gratis Antar-Jemput Mobil di Bandara</li>
               <li><img src={Icon} alt="img-services"/>Layanan Airport Transfer/Drop In Out</li>
             </ul>
-            </div>
         </div>
-      </section>
       </div>
     </div>
   );

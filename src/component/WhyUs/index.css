@@ -1,12 +1,16 @@
+.whybox{
+    margin-left: 136px;
+    padding-top: 50px;
+}
 .boxkonten {
     display: flex;
     flex-flow: row wrap;
 }
-
 .card {
     padding: 8px;
+    width: 15rem;
+    height: 15rem;
 }
-
 .h1 {
     font-family: 'Arial';
     font-style: normal;
@@ -14,12 +18,59 @@
     font-size: 16px;
     line-height: 24px;
 }
-
-,
-p {
+.p {
     font-family: 'Arial';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 20px;
+}
+.image {
+    width: 30px; 
+    height: 30px;
+}
+@media only screen and (max-width: 1024px) {
+    .whybox{
+        margin-left: 16px;
+    }
+    .judul{
+        text-align: center;
+    }
+    .boxkonten {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        padding: 16px;
+        height: 792px;
+    }
+    .card {
+        padding-left: 31px;
+        padding-top: 31px;
+        width: 328px;
+        height: auto;
+    }
+    .h1 {
+        width: 280px;
+        height: 24px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .p {
+        width: 280px;
+        height: 40px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
+    }
+    .image {
+        width: 32px;
+        height: 32px;
+    }
 }

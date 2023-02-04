@@ -26,11 +26,13 @@ function  Faq() {
     ];
     return (
     <>
+    <div id="faq">
     <FaqBox 
         Faqcomponen={data}
         judulh1="Frequently Asked Question"
         penjelasan="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-        />
+    />
+    </div>
     </>
     );
 }

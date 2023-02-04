@@ -29,7 +29,7 @@ function  WhyUs() {
       ];
     return (
         <>
-        <div>
+        <div id="whyus">
             <Whybox 
                 whyuscomponen={data}
                 judulh1="Why Us?"

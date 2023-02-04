@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container, Row, Col, Card} from "react-bootstrap"
+import { Row, Col, Card} from "react-bootstrap"
 import "./index.css";
 
 export default function Whybox({
@@ -9,22 +9,22 @@ export default function Whybox({
 }) {
 
   return (
-    <Container>
-        <Row className="text-center">
+    <div className='whybox'>
+        <Row className="judul">
             <h1>{judulh1}</h1>
             <p>{penjelasan}</p>
         </Row>
-        <Row className='boxkonten'>
+        <Row className='boxx'>
         {whyuscomponen.map((item) => (
             <Col md="auto" xs="auto">
-                <Card style={{ width: '15rem', height: '15rem' }}>
-                <Card.Img className='image' variant="top" src={item.icon} style={{ width: '30px', height: '30px'}} />
+                <Card className='boxkonten'>
+                <div className='image'><Card.Img src={item.icon} /></div>
                 <Card.Title><h5>{item.title}</h5></Card.Title>
                 <Card.Text><p>{item.text}</p></Card.Text>
                 </Card>
             </Col>
             ))}
         </Row>
-    </Container>
+    </div>
   );
 }

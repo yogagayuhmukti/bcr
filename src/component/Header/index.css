@@ -1,4 +1,6 @@
 .navnav {
+  position: fixed;
+  width: 100%;
   padding-left: 136px;
   padding-right: 249px;
 }
