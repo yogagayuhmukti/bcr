@@ -3,11 +3,6 @@ import Icon2 from "../../assets/image/icon_price-1.png";
 import Icon3 from "../../assets/image/icon_24hrs-1.png";
 import Icon4 from "../../assets/image/icon_professional-1.png";
 import Whybox from "./Whybox";
-// import React, { useEffect, useState } from "react";
-
-
-// const WhyUsPage = () => {
-//     const [data, setData] = useState([]);
 
 function  WhyUs() {
     const data = [

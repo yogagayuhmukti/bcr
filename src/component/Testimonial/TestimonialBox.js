@@ -1,5 +1,6 @@
 import React from 'react'
 import {Container, Row, Col, Card} from "react-bootstrap"
+import "./index.css";
 
 export default function TestimonialBox({
     testimonialcomponen = [],
@@ -9,20 +10,24 @@ export default function TestimonialBox({
 
   return (
     <Container>
-        <Row>
+        <Row className="text-center">
             <h1>{judulh1}</h1>
             <p>{penjelasan}</p>
         </Row>
-        <Row>
+        <Row className="testibox">
         {testimonialcomponen.map((item) => (
-            <Col md="auto" xs="auto">
-                <Card style={{ width: '15rem' }}>
-                    <Card.Img variant="top" src={item.image} style={{ width: '30px', height: '30px'}} />
-                <Card.Body>
-                    <Card.Text>{item.icon}</Card.Text>
-                    <Card.Text>{item.lorem}</Card.Text>
-                    <Card.Text>{item.tanggal}</Card.Text>
-                </Card.Body>
+            <Col md="auto" xs="auto" lg="auto">
+                <Card style={{ width: '619px', height: '270px', display: 'flex', flexDirection: 'row', background: '#F1F3FF', alignItems: 'center', paddingLeft: '48px'}}>
+                    <div>
+                    <Card.Img variant="top" src={item.image} style={{ width: '80px', height: '80px'}} />
+                    </div>
+                    <div>
+                    <Card.Body style={{ paddingLeft: '48px'}}>
+                        <Card.Text variant="success">{item.icon}</Card.Text>
+                        <Card.Text className='paragraf'>{item.lorem}</Card.Text>
+                        <Card.Text className='tanggal'>{item.tanggal}</Card.Text>
+                    </Card.Body>
+                    </div>
                 </Card>
             </Col>
             ))}

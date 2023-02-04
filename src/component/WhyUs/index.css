@@ -1,0 +1,25 @@
+.boxkonten {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card {
+    padding: 8px;
+}
+
+.h1 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+,
+p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}

@@ -4,7 +4,7 @@ import "./index.css";
 
 const SewaMobilSekarangBox = () => {
   return (
-    <div className="text-center">
+    <div className="text-center" style={{paddingLeft: '136px'}}>
     <Card className='sewabox' style={{background: "#0D28A6"}}>
       <Card.Body>
         <Card.Title><h1>Sewa Mobil di(Lokasimu) Sekarang</h1></Card.Title>
