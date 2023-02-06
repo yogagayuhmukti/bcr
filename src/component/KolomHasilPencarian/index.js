@@ -1,9 +1,9 @@
-import KolomPencarianBox from "./KolomPencarianBox";
+import KolomHp from "./KolomHp";
 
-const KolomPencarian = () => {
+const KolomHasilPencarian = () => {
 
     return (
-    <KolomPencarianBox 
+    <KolomHp 
         namaMobil = "Nama Mobil"
         kategori = "Kategori"
         harga = "Harga"
@@ -12,4 +12,4 @@ const KolomPencarian = () => {
     );
 }
 
-export default KolomPencarian;
+export default KolomHasilPencarian;

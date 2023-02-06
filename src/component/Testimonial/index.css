@@ -1,8 +1,18 @@
+.testesbox{
+    padding-top: 70px;
+}
+.container{
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 1168px;
+    height: auto;
+}
 .testibox{
     display: flex;
     flex-flow: row wrap;
     width: 1950px;
-    height: 438px;
+    height: auto;
 }
 .icons{
     color: #F9CC00;
@@ -32,4 +42,64 @@
     flex: none;
     order: 2;
     flex-grow: 0;
+}
+.buttonLeft{
+    width: 30px;
+    height: 30px;
+    background-image: url(../../assets/image/chevron-left.svg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 2px;
+}
+.buttonRigth{
+    width: 30px;
+    height: 30px;
+    background-image: url(../../assets/image/chevron-right.svg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 3px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .testesbox{
+        padding-top: 70px;
+    }
+    .container{
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+        width: 1168px;
+        height: auto;
+    }
+    .testibox{
+        flex-direction: column;
+        width: 328px;
+        height: auto;
+    }
+    .icons{
+        color: #F9CC00;
+    }
+    .paragraf{
+        width: 415px;
+        height: 80px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
+
+    }
+    .tanggal{
+        width: 415px;
+        height: 20px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
+
+    }
+
 }

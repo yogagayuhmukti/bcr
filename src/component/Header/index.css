@@ -3,6 +3,9 @@
   width: 100%;
   padding-left: 136px;
   padding-right: 249px;
+  z-index: 1;
+  background: #F1F3FF;
+  margin-bottom: 0px!important;
 }
 .bnav{
     text-decoration: none;

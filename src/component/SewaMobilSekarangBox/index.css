@@ -1,7 +1,10 @@
+.atas {
+    padding-left: 136px;
+}
 .sewabox{
     position: relative;
     padding-top: 64px;
-    padding-bottom: 64px;
+    padding-bottom: 30px;
     border-radius: 13px;
     width: 1168px;
     height: 326px;
@@ -14,6 +17,59 @@
     font-size: 36px;
     line-height: 150%;
 }
-.button{
+.P{
+    width: 468px;
+    height: 40px;
+    left: 478px;
+    top: 2212px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.carimobil{
     padding-bottom: 64px;
+}
+@media only screen and (max-width: 1024px) {
+    .atas {
+        padding-left: 16px;
+    }
+    .sewabox{
+        position: relative;
+        padding-top: 64px;
+        padding-bottom: 30px;
+        border-radius: 13px;
+        width: 328px;
+        height: 420px;
+        color: #FFFFFF;
+    }
+    .h1{
+        width: 212px;
+        height: 108px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .P{
+        width: 212px;
+        height: 100px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .carimobil{
+       margin-bottom: 64px;
+    }
+
 }

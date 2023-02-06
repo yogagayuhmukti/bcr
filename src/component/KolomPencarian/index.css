@@ -1,0 +1,53 @@
+.kolomcari{
+    position: fixed;
+    top: 415px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 136px;
+    width: 1168px;
+    background-color: rgb(221, 208, 208);
+    border-radius: 20px;
+}
+.kpnamamobil{
+    padding-left: 20px;
+}
+.kpkapsitasmobil{
+    padding-left: 20px;
+}
+.kphargamobil{
+    padding-left: 20px;
+}
+.kpstatusmobil{
+    padding-left: 20px;
+}
+.kpbutton{
+    padding-left: 80px;
+}
+@media only screen and (max-width: 1024px) {
+    .kolomcari{
+        position: relative;
+        top: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-left: 35px;
+        width: 328px;
+        background-color: rgb(221, 208, 208);
+        border-radius: 20px;
+    }
+    .kpnamamobil{
+        padding-left: 5px;
+    }
+    .kpkapsitasmobil{
+        padding-left: 5px;
+    }
+    .kphargamobil{
+        padding-left: 5px;
+    }
+    .kpstatusmobil{
+        padding-left: 5px;
+    }
+    .kpbutton{
+        padding-left: 5px;
+    }
+}

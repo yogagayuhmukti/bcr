@@ -7,8 +7,8 @@ const OurServices = () => {
   return (
     <div id='ours'>
       <div className="boxOS">
-          <div className='gambar-service'>
-            <img
+          <div>
+            <img className='gambar-service'
               src={ServiceImage}
               alt="img-services"
             />

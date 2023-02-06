@@ -10,13 +10,13 @@ export default function FaqBox({
 }) {
 
 return (
-    <div className="faqbox" style={{ paddingLeft: '136px', width: '1168px' }}>
-        <Col>
+    <div className="gerombolan">
+        <Col className="aran">
             <h1>{judulh1}</h1>
             <p>{penjelasan}</p>
         </Col>
-        <Col className='boxkonten'>
-        <Accordion style={{ width: '668px', height: '56px'}}>
+        <Col className='tanya'>
+        <Accordion >
             {Faqcomponen.map((item, index) => {
               return (
                 <Accordion.Item eventKey={index}>

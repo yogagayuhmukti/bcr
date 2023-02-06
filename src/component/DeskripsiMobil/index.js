@@ -1,6 +1,6 @@
 import {Container, Row, Col, Card, ListGroup} from "react-bootstrap"
 
-function Banner() {
+function DeskripsiMobil() {
     return (
         <Container>
                 <Row>
@@ -59,4 +59,4 @@ function Banner() {
         </Container>
     );
 }
-export default Banner;
+export default DeskripsiMobil;

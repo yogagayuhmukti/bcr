@@ -58,10 +58,9 @@
     .gambar-service{
       padding-left: 38px;
       width: 252px;
-      height: 228px;
+      height: auto;
     }
     .ourbox{
-      margin-top: 240px;
       margin-left: 10px;
       width: 328;
       height: auto;

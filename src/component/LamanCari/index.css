@@ -1,4 +1,4 @@
-.bannerbox {
+.bannerCaribox {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -6,6 +6,7 @@
     width: 100%;
     height: auto;
     padding-top: 85px;
+    background-color: #F1F3FF;
 }
 .padlef {
     display: flex;
@@ -39,33 +40,10 @@
 .padrig {
     width: 50%;
 }
-.tombolCari{
-    width: 140px;
-    height: 36px;
-    left: 136px;
-    top: 377px;
-}
-.tombolCari .cari p{
-    width: 116px;
-    height: 20px;
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 20px;
-    color: #FFFFFF;
-}
 .mobilemode {
     display: none;
 }
 @media only screen and (max-width: 1024px) {
-    .box {
-        display: flex;
-        flex-direction: column;
-        width: auto;
-        height: auto;
-        left: 0px;
-    }
     .padlef {
         padding-left: 16px;
         width: 328px;
@@ -103,16 +81,6 @@
     }
     .image {
         width: 100%;
-    }
-    .tombolCari p{
-        width: 116px;
-        height: 20px;
-        font-family: 'Arial';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 20px;
-        color: #FFFFFF;
     }
     .webmode {
         display: none;

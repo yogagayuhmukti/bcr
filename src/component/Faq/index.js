@@ -25,7 +25,6 @@ function  Faq() {
         },
     ];
     return (
-    <>
     <div id="faq">
     <FaqBox 
         Faqcomponen={data}
@@ -33,7 +32,6 @@ function  Faq() {
         penjelasan="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
     />
     </div>
-    </>
     );
 }
 

@@ -1,9 +1,13 @@
-.faqbox{
+.gerombolan{
     display: flex;
-    flex-flow: row wrap;
-    width: 1168px;
-    height: 344px;
-    border-radius: 0px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 136px;
+    padding-top: 80px;
+    height: 400px;
+}
+.aran{
+    height: 344;
 }
 .h1{
     font-family: 'Arial';
@@ -28,4 +32,44 @@
     font-size: 14px;
     line-height: 20px;
     color: #000000;
+}
+.tanya{
+    width: 668px;
+    height: 56px;
+}
+@media only screen and (max-width: 1024px) {
+    .gerombolan{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-left: 16px;
+    }
+    .h1{
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        color: #000000;
+    }
+    .p{
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
+    }
+    .kalimat{
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
+    }
+    .tanya{
+        width: 328px;
+        height: auto;
+    }
 }

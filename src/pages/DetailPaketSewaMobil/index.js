@@ -1,14 +1,14 @@
-import {Header, Footer, HasilPencarian, DeskripsiMobil } from '../../component'
+import {Header, Footer,  DeskripsiMobil, LamanBackground, KolomHasilPencarian } from '../../component'
 
 function SewaMobil() {
     return (
-        <>
+        <div id='deskripsi'>
             <Header />
-            <HasilPencarian />
+            <LamanBackground />
+            <KolomHasilPencarian />
             <DeskripsiMobil />
             <Footer />
-        </>
+        </div>
     );
 }
- 
 export default SewaMobil;

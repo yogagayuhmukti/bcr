@@ -1,14 +1,14 @@
-import {Header, Footer, HasilPencarian, DaftarMobilSesuaiPencarian} from '../../component'
+import {Header, Footer, HasilPencarian, KolomHasilPencarian, LamanBackground } from '../../component'
 
 function HasilPencarianMobil() {
     return (
-        <>
+        <div id='hasilPencarianMobil'>
             <Header />
+            <LamanBackground />
+            <KolomHasilPencarian />
             <HasilPencarian />
-            <DaftarMobilSesuaiPencarian />
             <Footer />
-        </>
+        </div>
     );
 }
- 
 export default HasilPencarianMobil;

@@ -1,14 +1,15 @@
 import {Navbar, Container, Nav, Offcanvas} from "react-bootstrap"
+import { Link } from "react-router-dom";
 import "./index.css";
 
 function Header() {
     return (
       <div id="navvbarr" className="navnav"> 
         <Navbar key="md" bg="#F1F3FF" expand="md" className="mb-3">
-          <Container fluid style={{padding:"0px"}}>
-          <div className="navbar-brand">
+          <Container fluid >
+          <Link to="/" className="navbar-brand">
             <Navbar.Brand href="#navvbarr"></Navbar.Brand>
-          </div>
+          </Link>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-md`}
@@ -20,7 +21,7 @@ function Header() {
                 <Offcanvas.Title>
                   <div className="brand-toggle">
                   <p>BCR</p>
-                  <Navbar.Brand href="#navvbarr"/>
+                  <Navbar.Brand href="#z"/>
                   </div>
                 </Offcanvas.Title>
               </Offcanvas.Header>
@@ -36,17 +37,17 @@ function Header() {
                     <p className="buttonNavi">Our Services</p>
                   </Nav.Link>
                 </div>
-                <div className="bnav">
+                <div to="/" className="bnav">
                   <Nav.Link href="#whyus">
                     <p className="buttonNavi">Why Us</p>
                   </Nav.Link>
                 </div>
-                <div className="bnav">
+                <div to="/" className="bnav">
                   <Nav.Link href="#testimonial">
                     <p className="buttonNavi">Testimonial</p>
                   </Nav.Link>
                 </div>
-                <div className="bnav">
+                <div to="/" className="bnav">
                   <Nav.Link href="#faq">
                     <p className="buttonNavi">FAQ</p>
                   </Nav.Link>
