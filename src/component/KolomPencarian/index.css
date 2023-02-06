@@ -1,6 +1,6 @@
 .kolomcari{
-    position: fixed;
-    top: 415px;
+    position: relative;
+    top: -45px;
     display: flex;
     flex-direction: row;
     margin-left: 136px;
